@@ -1,9 +1,8 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Alyson Hernandez
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      Current undergraduate student at UT Austin with a passion for robotics, software, and electrical engineering.
+                      
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : alysonhernandez/alysonhernandez.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU

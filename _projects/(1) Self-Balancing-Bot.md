@@ -1,7 +1,7 @@
 ---
 name: Self-Balancing Bot
 tools: [C++, Arduino, MATLAB, Simulink, CAD, 3D Printing]
-image: ../assets/images/SelfBalancingBot/BotRealView.gif
+image: ../assets/images/BalanceBot/BotRealView.gif
 description: A two wheeled self balancing robot built from scratch, from deriving its equations of motion in MATLAB to tuning the PID controller live from a web page.
 ---
 # Self-Balancing Bot
@@ -12,7 +12,7 @@ I wanted a project that would be genuinely hard, because an easy project teaches
 ## Task
 The baseline goal was simple to state and hard to reach, which was to make the robot balance on its own. Driving it under command was something I wanted eventually, but I deliberately kept it out of scope for this version so that balancing got my full attention.
 
-<img src="../assets/images/BalanceBot/BalanceBotSideView.jpg" alt="Image showing the real life bot" width=400>
+<img src="../assets/images/BalanceBot/BalanceBotSideView.JPG" alt="Image showing the real life bot" width=400>
 
 ## Action
 I started with the theory rather than the parts. Before ordering anything I learned how PID control works, because the component choices only make sense once you understand what the controller needs from them.
@@ -45,7 +45,7 @@ The fix was a complementary filter, which blends the gyroscope with the accelero
 ### Tuning
 I built a web interface, served from the ESP32 itself, that exposes the PID gains for live adjustment. This came out of frustration rather than planning. Reflashing the microcontroller for every value change made tuning painfully slow, and PID tuning needs many iterations. Being able to change a gain and watch the robot's response immediately turned tuning from a chore into something I could actually iterate on.
 
-<img src="../assets/images/BalanceBot/WebsiteInterface.png" alt="Screenshot showing the website interface for tuning" width=400>
+<img src="../assets/images/BalanceBot/WebsiteInterface.PNG" alt="Screenshot showing the website interface for tuning" width=400>
 
 ## Result
 The robot balances. On level ground it holds itself upright for an extended stretch, which was the goal I set at the start.

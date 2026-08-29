@@ -1,7 +1,7 @@
 ---
 name: Catapult Project
 tools: [Physics, Hand Tools, Woodworking]
-image: ../assets/images/Catapult/REPLACE-ME.jpg
+image: ../assets/images/Catapult/CatapultDiagram.png
 description: Led a team to design and build a rubber band powered catapult that launched a pumpkin farther than any other in our AP Physics class.
 ---
 # Catapult Project
