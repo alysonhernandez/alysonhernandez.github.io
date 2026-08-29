@@ -1,0 +1,27 @@
+- name: Python
+  percentage: 90
+  color: danger
+
+- name: HTML/CSS
+  percentage: 80
+  color:
+
+- name: JavaScript
+  percentage: 70
+  color: 
+  
+- name: MATLAB
+  percentage: 70
+  color: secondary
+
+- name: Arduino
+  percentage: 70
+  color: secondary
+
+- name: Ruby
+  percentage: 70
+  color: secondary
+
+- name: Java
+  percentage: 70
+  color: secondary

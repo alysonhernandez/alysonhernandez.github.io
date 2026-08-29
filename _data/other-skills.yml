@@ -1,0 +1,19 @@
+- name: Autodesk Certified User: Fusion 360
+  percentage: 90
+  color: success
+
+- name: Autodesk Certified User: Revit Architecture
+  percentage: 90
+  color: success
+
+- name: Adobe Illustrator
+  percentage: 90
+  color: success
+
+- name: Adobe Premiere Pro
+  percentage: 90
+  color: success
+
+- name: Powerpoint
+  percentage: 95
+  color: info

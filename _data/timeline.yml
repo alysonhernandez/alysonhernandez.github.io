@@ -1,0 +1,67 @@
+- title: Professional Experience
+  from: 
+  to: 
+  description:
+
+- title: Software Engineer Intern, Polaris, Remote
+  from: June 2025
+  to: August 2025
+  description:  Optimized QML & C++ based vehicle simulation software by leveraging JavaScript to display parameters only relevant to currently selected vehicle and implementing persistent user configuration, reducing setup time by 50%
+                - Enhanced QML-based UI and navigation of simulation software by redesigning parameter input fields and navigation tree
+                - Implemented context-aware theming within simulation software to improve user awareness during vehicle selection
+
+- title: Software Engineer Intern, Loxo, Remote
+  from: June 2026
+  to: August 2026
+  description:  Debugged and corrected JavaScript state-management logic in a calendar component, ensuring the UI accurately reflected users’ selected dates. 
+                - Implemented an administrative role-management workflow using Ruby, JavaScript, and 1Password integration, allowing authorized users to grant admin permissions through a profile-level toggle. 
+                - Extended an application form system with a new phone number question type using Ruby and JavaScript, connecting submitted responses to recruiter-facing candidate profiles. 
+                - Engineered a JavaScript monitoring script with Rollbar to proactively detect third-party integrity-hash changes and immediately alert developers when social media links stopped working, reducing reliance on users encountering the error first.
+
+- title: Community Involvement
+  from: 
+  to: 
+  description:
+
+- title: LHS Leo Club, Lehman High School, Kyle TX
+  from: September 2023
+  to: May 2026
+  description:  A volunteer program that contributes to the community by helping during events, public cleanings, etc.
+                - I served several hours, doing various occasions of volunteering
+                - Developed teamwork, communication, and experience in different fields of volunteering
+
+- title: Mu Alpha Theta, Lehman High School, Kyle TX
+  from: October 2024
+  to: May 2026
+  description:  A program that strives to promote mathematical achievements at Lehman High School
+                - Served a total of 10 service hours, 5 being from tutoring peers within math subjects, and the rest from helping out with certain events for the community
+                - Established partnerships, interactions, and involvement in a variety of sectors
+
+- title: National Technical Honor Society, Lehman High School, Kyle TX
+  from: May 2025
+  to: May 2026
+  description:  A volunteer program that helps service communities and promotes the CTE section at Lehman High School
+                - Served a total of 20 hours throughout the year hosting booths at school events and encouraging students to join the CTE program
+                - Established partnerships, interactions, and involvement in a variety of sectors
+
+- title: Education
+  from: 
+  to: 
+  description:
+
+- title: Student, Lehman High School, Kyle TX
+  from: August 2022
+  to: May 2026
+  description:  GPA: 4.5472, Class Rank: 11/488
+                Relevant coursework: AP Physics C: Electricity and Magnetism, AP Physics C: Mechanics, AP Physics 1, AP Calculus BC, AP Computer Science Principles, AP Chemistry, AP Statistics
+                Involvement: National Technical Honor Society, LHS Leo Club, Mu Alpha Theta
+
+- title: Student, Austin Community College, Austin TX
+  from: September 2024
+  to: May 2026
+  description: Obtained high school and college credit for core undergraduate courses.
+
+- title: Student, The University of Texas at Austin, Austin TX
+  from: August 2026
+  to: May 2030
+  description: Current undergraduate student UT Austin with an interest in Electrical and Computer Engineering.
