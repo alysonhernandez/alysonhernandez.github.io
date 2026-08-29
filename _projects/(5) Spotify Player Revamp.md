@@ -1,7 +1,7 @@
 ---
 name: Spotify Player Revamp
 tools: [JavaScript, HTML, CSS, Spotify Web API, PWA]
-image: ../assets/images/SpotifyPlayer/SpotifyPlayerReal.png
+image: ../assets/images/SpotifyPlayer/SpotifyPlayerDemonstration.gif
 description: A custom Spotify controller built as an installable web app, turning an old iPhone into a dedicated remote for my playlists.
 ---
 # Spotify Player Revamp
@@ -12,7 +12,7 @@ Whenever I was gaming or working on my computer, changing what was playing meant
 ## Task
 I wanted a Spotify controller I could run on an old iPhone sitting next to my keyboard, so changing tracks never touched the computer I was actually using. Since I was building it only for myself, I could design it around my own playlists and the specific actions I use most rather than around what a general audience would need.
 
-<img src="../assets/images/SpotifyPlayer/SpotifyPlayerReal.png" alt="Picture of the player running on my iPhone in real time" width=400>
+<img src="../assets/images/SpotifyPlayer/SpotifyPlayerReal.JPG" alt="Picture of the player running on my iPhone in real time" width=400>
 
 ## Action
 I built the app in JavaScript, HTML, and CSS, and structured it as a Progressive Web App. That was the decision that made the whole idea work. A manifest file and a service worker let the page install to the iPhone home screen and open like a normal app, without a browser address bar and without going through an app store, which matters because Apple would never have let a personal Spotify client into one.
