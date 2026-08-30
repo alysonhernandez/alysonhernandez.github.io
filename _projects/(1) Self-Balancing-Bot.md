@@ -31,6 +31,8 @@ This version is wired with Dupont cables, which made prototyping fast and change
 ### Modeling before tuning
 Rather than guessing at controller values, I built a model of the robot in MATLAB. I drew free body diagrams, derived the equations of motion from them, and set the problem up so MATLAB could solve those equations and predict how the robot would move. I then designed the PID controller in Simulink against that model.
 
+<img src="../assets/images/BalanceBot/Math.PNG" alt="Image showing the FBD of bot" width=400>
+
 The point of this was to start tuning from an analytical baseline rather than from arbitrary numbers. Tuning a PID controller by pure trial and error on real hardware means a physical robot falling over repeatedly while you search blindly, and having a modeled starting point meant the first values I tried on the real robot were already in a sensible range.
 
 The model was not an accurate picture of the real robot, and the gains it produced were a good ballpark rather than final values. Two things I left out account for most of that gap. The first is backlash in the gearboxes, since gear teeth have clearance between them and a motor reversing direction turns a little before that clearance closes and the wheel actually responds. That matters more here than in most applications, because a balancing robot reverses direction constantly and pays the cost on every single correction. The second is the motors themselves, which I modeled as if they produced torque instantly rather than as electrical systems that take time to respond. Modeling the electrical side, meaning armature resistance, inductance, and back EMF, is something I want to learn how to do for the next version.
